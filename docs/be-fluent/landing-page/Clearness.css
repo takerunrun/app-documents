@@ -1,0 +1,19 @@
+#wrapper {
+  position: relative;
+  width: 100%;
+}
+#wrapper:before {
+  content:"";
+  display: block;
+  padding-top: 840.338164%;
+  width: device-width;
+}
+#content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url("landing_page.png");
+  background-size: contain;
+}
