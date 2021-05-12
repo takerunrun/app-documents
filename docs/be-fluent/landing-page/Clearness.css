@@ -17,3 +17,6 @@
   background-image: url("landing_page.png");
   background-size: contain;
 }
+body {
+  margin: 0;
+}
