@@ -1,21 +1,92 @@
-#wrapper {
+/* top */
+#top-wrapper {
   position: relative;
   width: 100%;
 }
-#wrapper:before {
+#top-wrapper:before {
   content:"";
   display: block;
-  padding-top: 840.338164%;
+  padding-top: 144.927536%;
   width: device-width;
 }
-#content {
+#top-content {
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  background-image: url("landing_page.png");
+  background-image: url("images/top.png");
   background-size: contain;
+}
+/* top-bgv */
+#top-bgv-wrapper {
+  position: relative;
+  width: 100%;
+}
+#top-bgv-wrapper:before {
+  content:"";
+  display: block;
+  padding-top: 34.7826087%;
+  width: device-width;
+}
+#top-bgv-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url("images/top_bgv.png");
+  background-size: contain;
+}
+div.top-appstore-button > a:last-child{
+  position:absolute;
+  top: 8%;
+  left: 9.6618357%;
+}
+/* body */
+#body-wrapper {
+  position: relative;
+  width: 100%;
+}
+#body-wrapper:before {
+  content:"";
+  display: block;
+  padding-top: 606.763285%;
+  width: device-width;
+}
+#body-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url("images/body.png");
+  background-size: contain;
+}
+/* bottom-bgv */
+#bottom-bgv-wrapper {
+  position: relative;
+  width: 100%;
+}
+#bottom-bgv-wrapper:before {
+  content:"";
+  display: block;
+  padding-top: 36.9565217%;
+  width: device-width;
+}
+#bottom-bgv-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url("images/bottom_bgv.png");
+  background-size: contain;
+}
+div.bottom-appstore-button > a:last-child{
+  position:absolute;
+  top: 8%;
+  left: 9.6618357%;
 }
 body {
   margin: 0;
