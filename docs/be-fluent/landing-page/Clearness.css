@@ -88,6 +88,26 @@ div.bottom-appstore-button > a:last-child{
   top: 8%;
   left: 9.6618357%;
 }
+/* bottom */
+#bottom-wrapper {
+  position: relative;
+  width: 100%;
+}
+#bottom-wrapper:before {
+  content:"";
+  display: block;
+  padding-top: 19.3236715%;
+  width: device-width;
+}
+#bottom-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url("images/bottom.png");
+  background-size: contain;
+}
 body {
   margin: 0;
 }
